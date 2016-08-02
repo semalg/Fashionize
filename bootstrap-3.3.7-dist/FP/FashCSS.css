@@ -1,0 +1,10 @@
+body{background-color: #FFDBF4;
+	font-family: "Comfortaa", cursive}
+
+#missionstate{width: 350px}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
