@@ -1280,7 +1280,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h6,
 .h6 {
@@ -6240,6 +6240,7 @@ button.close {
   position: relative;
 }
 .carousel-inner {
+  height: 400px;
   position: relative;
   width: 100%;
   overflow: hidden;
