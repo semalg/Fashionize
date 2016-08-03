@@ -5068,8 +5068,10 @@ a.thumbnail.active {
 }
 .alert-info {
   color: #31708f;
-  background-color: #d9edf7;
+  background-color: #88a5e7;
   border-color: #bce8f1;
+  width: 800px;
+  overflow: auto;
 }
 .alert-info hr {
   border-top-color: #a6e1ec;
@@ -5523,6 +5525,7 @@ button.list-group-item-danger.active:focus {
 .panel > .panel-collapse > .table {
   margin-bottom: 0;
 }
+
 .panel > .table caption,
 .panel > .table-responsive > .table caption,
 .panel > .panel-collapse > .table caption {
