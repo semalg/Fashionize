@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Bra Size Converter</title>
+	</head>
+	<body>
+		<form id = "bust">
+			Bust Measurement: <input type = "text" name = "input" id="bustsize"><br>
+		</form>
+		<form id = "band">
+			Band Measurement: <input type = "text" name = "input" id="bandsize"><br>
+		</form>
+		<button onclick="myfunction()">Find Your Size!</button><br>
+		Bra Size:<p id = "demo">?</p>
+		<script>
+		function myfunction() {
+			var size = Number(document.getElementById("bustsize").value);
+			document.getElementById("demo").innerHTML = uk;
+			document.getElementById("demo1").innerHTML = eur;
+		}
+		</script>
+	</body>
+</html>
