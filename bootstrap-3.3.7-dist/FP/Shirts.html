@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="CK.js"></script>
+    <script type="text/javascript" src="hm.js"></script>
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -56,6 +58,7 @@
             <ul class="nav navbar-nav">
               <li><a href="Bras.html">Bras</a></li>
               <li class="active"><a href="Shirts.html">Shirts</a></li>
+              <li><a href="Shoes.html">Shoes</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -121,10 +124,18 @@
     <div class="alert alert-info" role="alert">
         <div class="col-md-4">
          <h4> <b>Input your measurements!</b></h4> 
-          <p> Band Measurement: <input type="number" name="BustM" value=""><br>
-              Bust Measurement: <input type="number" name="WaistM" value=""><br>
-              Band Measurement: <input type="number" name="HipsM" value=""><br>
-              <input type="submit" value="Submit"> 
+          <p>
+            <form id="bust">
+              Bust Measurement: <input type="number" name="BustM" value="" id="bustsize"><br>
+            </form>
+            <form id="waist">
+              Waist Measurement: <input type="number" name="WaistM" value="" id="waistsize"><br>
+            </form>
+            <form id="hips">  
+              Hips Measurement: <input type="number" name="HipsM" value="" id="hipsize"><br>
+            </form>
+              <input type="submit" value="Submit" onclick="CKConverter();HMCon()"> 
+
           </p>
           
         </div>
@@ -132,7 +143,12 @@
         <img src="smeasure.gif" height="250" width="175">
         </div>
         <div class="col-md-4">
-        <p> <b> <h4> Your Size! </h4> </b></p> <p> ... </p>
+        <p> <b> <h4> Your Size! </h4> </b></p>
+        <p> Calvin Klein: </p>
+          <p id="CKS"></p>
+        <p> H&M:</p>
+          <p id="HMS"></p>
+
         </div>
     </div>
   </div>
