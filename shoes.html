@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Shoe Size Converter</title>
+	</head>
+	<body>
+		<form id = "shoeSize">
+			Foot Length (* Please enter your foot length in inches to two demcimal places): <input type = "text" name = "input" id = "footLength"><br>
+		</form>
+
+		<button onclick = "myfunction()">Submit Measurement</button><br>
+		Shoe Size: <p id = "demo"></p>
+
+		<script>
+		function myfunction() {
+			var ft = document.getElementById("footLength").value;
+			var s = 0;
+			if (ft == 8.00) {
+				s = 3;
+			} else if (ft == 8.33) {
+				s = 4;
+			} else if (ft == 8.66) {
+				s = 5;
+			} else if (ft == 9.00) {
+				s = 6;
+			} else if (ft == 9.33) {
+				s = 7;
+			} else if (ft == 9.66) {
+				s = 8;
+			} else if (ft == 10.00) {
+				s = 9;
+			} else if (ft == 10.33) {
+				s = 10;
+			} else if (ft == 10.66) {
+				s = 11;
+			} else if (ft == 11.00) {
+				s = 12;
+			} else if (ft == 11.33) {
+				s = 13;
+			} else if (ft == 11.66) {
+				s = 14;
+			} else if (ft == 12.00) {
+				s = 15;
+			} else if (ft == 12.33) {
+				s = 16;
+			} else if (ft == 12.66) {
+				s = 17;
+			} else if (ft == 13.00) {
+				s = 18;
+			} else if (ft == 13.33) {
+				s = 19;
+			} else if (ft == 13.66) {
+				s = 20;
+			} else {
+				document.write("Sorry, we can't compute this.")
+			}
+
+			console.log(s)
+			document.getElementById("demo").innerHTML = s
+		}
+		</script>
+	</body>
+</html>

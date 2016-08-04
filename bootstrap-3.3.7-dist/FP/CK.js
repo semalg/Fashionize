@@ -64,6 +64,8 @@ function CKConverter() {
 			quotient = sum/3
 			roundedAvg = Math.round(quotient)
 			var CKSize = "";
+			var CKUK = "";
+			var CKEurope = "";
 			if (roundedAvg == 0) {
 				CKSize = "X-Small"
 			}
@@ -79,7 +81,29 @@ function CKConverter() {
 			if (roundedAvg == 4) {
 				CKSize = "X-Large"	
 			}
+			if (CKSize == "X-Small"){
+				CKUK = 0
+				CKEurope = 2
+			}
+			if (CKSize == "Small"){
+				CKUK = 2,4
+				CKEurope =4,6
+			}
+			if (CKSize == "Medium"){
+				CKUK = 6,8
+				CKEurope = 8,10
+			}
+			if (CKSize == "Large"){
+				CKUK = 10,12
+				CKEurope = 12,14
+			}
+			if (CKSize = "X-Large"){
+				CKUK = 14,16
+				CKEurope = 16,18
+			}
 
 			console.log(CKSize)
 			document.getElementById("CKS").innerHTML = CKSize;
+			document.getElementById("CKU").innerHTML = CKUK
+			document.getElementById("CKE").innerHTML = CKEurope
 		}
