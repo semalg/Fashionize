@@ -23,3 +23,13 @@ a{color: #75f58a;}
 #bran{margin-top: 35px;
 margin-bottom: 20px;
 margin-left: 23px;}
+
+td {
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	}
+	
+th {
+	width: 350px;
+	border-bottom: 1px solid #ddd;
+	}

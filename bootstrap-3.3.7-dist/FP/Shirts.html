@@ -21,6 +21,7 @@
     <script type="text/javascript" src="hm.js"></script>
     <script type="text/javascript" src="UO.js"></script>
     <script type="text/javascript" src="f21.js"></script>
+    <script type="text/javascript" src="fit.js"></script>
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -139,7 +140,7 @@
             <form id="hips">  
               Hips Measurement: <input type="number" name="HipsM" value="" id="hipsize"><br>
             </form>
-              <input type="submit" value="Enter" onclick="CKConverter();HMCon();UOCon();F21Con()"> 
+              <input type="submit" value="Enter" onclick="CKCon();HMCon();UOCon();F21Con();F21Converter(); CKConverter(); HMConverter(); UOConverter();"> 
 
           </p>
           
@@ -173,6 +174,38 @@
 <center>
   <div class="flex-container">
     <div class="alert alert-danger" role="alert">
+      <table style = "width: 100%">
+      <tr>
+        <center>
+        <th><center>*10 is the best fit possible.*</center></th>
+        <th><center>Forever 21</center></th>
+        <th><center>Calvin Klein</center></th>
+        <th><center>H&M</center></th>
+        <th><center>Urban Outfitters</center></th>
+        </center>
+      </tr>
+      <tr>
+        <td><b>Bust:</b></td>
+        <td><p id = "F21Bfit">?</p></td>
+        <td><p id = "CKBfit">?</p></td>
+        <td><p id = "HMBfit">?</p></td>
+        <td><p id = "UOBfit">?</p></td>
+      </tr>
+      <tr>
+        <td><b>Waist:</b></td>
+        <td><p id = "F21Wfit">?</p></td>
+        <td><p id = "CKWfit">?</p></td>
+        <td><p id = "HMWfit">?</p></td>
+        <td><p id = "UOWfit">?</p></td>
+      </tr>
+      <tr>
+        <td><b>Hips:</b></td>
+        <td><p id = "F21Hfit">?</p></td>
+        <td><p id = "CKHfit">?</p></td>
+        <td><p id = "HMHfit">?</p></td>
+        <td><p id = "UOHfit">?</p></td>
+      </tr>
+    </table>
 
 </center>
 

@@ -1,4 +1,4 @@
-function CKConverter() {
+function CKCon() {
 			var w = document.getElementById("waistsize").value;
 			var h = document.getElementById("hipsize").value;
 			var b = document.getElementById("bustsize").value;
