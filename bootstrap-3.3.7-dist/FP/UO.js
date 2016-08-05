@@ -5,6 +5,9 @@ function UOCon() {
 			var Wval = 0;
 			var Hval = 0;
 			var Bval = 0;
+			var UOBfit = "";
+			var UOWfit = "";
+			var UOHfit = "";
 			if (w>=24 && w<=26) {
 				Wval = 0;
 			}

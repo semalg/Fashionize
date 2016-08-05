@@ -5,6 +5,9 @@ function CKConverter() {
 			var Wval = 0;
 			var Hval = 0;
 			var Bval = 0;
+			var CKBfit = "";
+			var CKWfit = "";
+			var CKHfit = "";
 			if (b>=31 && b<=33) {
 				Bval = 0
 			}

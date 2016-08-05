@@ -5,6 +5,9 @@ function HMCon() {
 				var bval = 0;
 				var wval = 0;
 				var hval = 0;
+				var HMBfit = "";
+				var HMWfit = "";
+				var HMHfit = "";
 				if (30 <= b && 31.5 >= b) {
 					bval = 0;
 				} else if (33 <= b && 34.5 >= b) {
