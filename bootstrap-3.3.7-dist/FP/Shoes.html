@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="micon.png">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
     <link href="../css/carousel.css" rel="stylesheet">
    
@@ -10,13 +11,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Fashionize It</title>
+    <title>Fashionize Shoes</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script type="text/javascript" src=".js"></script> -->
+    <script type="text/javascript" src="shoes.js"></script>
 
     <style>
     .carousel-inner > .item > img,
@@ -80,7 +81,7 @@
       <div class="item active">
         <img src="fashlogo.png">
         <div class="carousel-caption">
-          <h3> To measure your FOOT LENGTH, measure from the bottom of your heel to the top of your longest toe.</h3>
+          <h3> To measure your FOOT LENGTH, measure from the bottom of your heel to the top of your longest toe, to the nearest decimal.</h3>
         </div>
       </div>
 
@@ -105,15 +106,20 @@
     <div class="alert alert-info" role="alert">
         <div class="col-md-4">
           <h4><b>Input your measurement!</h4></b> <br>
-          <p> Foot Length: <input type="number" name="FootM" value="" id="FM"><br>
+          <form id = "shoeSize">
+            Foot Length: <input type="number" name="Footlength" value="" id="footLength"><br>
+          </form>
         
-          <input type="submit" value="Enter" onclick="####"></p>
+          <input type="submit" value="Enter" onclick="Sh()"></p>
         </div>
         <div class="col-md-4">
         <img src="foot.jpeg" height="250" width="175">
         </div>
         <div class="col-md-4">
-       <h4> <p> <b>Your Sizes!</h4></b></p> <br> <br>
+       <h4> <p> <b>Your Sizes!</h4></b></p> <br> 
+       <h4 id="c4">US:</h4> <p id=USS></p>
+       <h4 id="c4">UK:</h4> <p id="UKS"></p>
+       <h4 id="c4">Eur:</h4> <p id="EUS"></p>
        <p id="FS"> </p>
         </div>
     </div>
