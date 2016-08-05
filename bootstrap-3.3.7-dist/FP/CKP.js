@@ -1,6 +1,6 @@
 function CKPants() {
-			var w = document.getElementById("waistsize").value;
-			var h = document.getElementById("hipsize").value;
+			var w = document.getElementById("waistsizep").value;
+			var h = document.getElementById("hipsizep").value;
 			var Wval = 0;
 			var Hval = 0;
 			if (w==25) {
@@ -13,7 +13,7 @@ function CKPants() {
 				Wval = 2;
 			}
 			else if (w==28) {
-				Wval = 3
+				Wval = 3;
 			}
 			else if (w==29) {
 				Wval = 4;

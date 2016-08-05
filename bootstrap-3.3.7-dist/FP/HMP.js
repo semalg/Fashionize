@@ -73,5 +73,5 @@ function HMPants() {
 				HMSize = "12"	
 			}
 			console.log(HMSize)
-			document.getElementById("HMSP").innerHTML = HMeSize;
+			document.getElementById("HMSP").innerHTML = HMSize;
 		}
