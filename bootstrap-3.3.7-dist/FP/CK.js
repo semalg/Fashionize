@@ -69,6 +69,7 @@ function CKConverter() {
 			else if (roundedAvg == 4) {
 				CKSize = "X-Large"	
 			}
+			
 			if (Bval == roundedAvg){
 				Bfit = "10"
 			}
