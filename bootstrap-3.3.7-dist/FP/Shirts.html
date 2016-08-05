@@ -18,6 +18,8 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="CK.js"></script>
     <script type="text/javascript" src="hm.js"></script>
+    <script type="text/javascript" src="UO.js"></script>
+    <script type="text/javascript" src="f21.js"></script>
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -134,7 +136,7 @@
             <form id="hips">  
               Hips Measurement: <input type="number" name="HipsM" value="" id="hipsize"><br>
             </form>
-              <input type="submit" value="Submit" onclick="CKConverter();HMCon()"> 
+              <input type="submit" value="Submit" onclick="CKConverter();HMCon();UOCon();F21Con()"> 
 
           </p>
           
@@ -144,10 +146,21 @@
         </div>
         <div class="col-md-4">
         <p> <b> <h4> Your Size! </h4> </b></p>
-        <p> Calvin Klein: </p>
+        <a href="http://www.calvinklein.com/shop/en/ck"><h4>Calvin Klein:</h4></a> 
           <p id="CKS"></p>
+<<<<<<< HEAD
         <p> H&M:</p>
+=======
+
+        <a href="http://www.hm.com/us/"><h4>H&M:</h4></a>
+>>>>>>> 1db582e863ede887bd77f5f2ecd7ce53fb7eb2ed
           <p id="HMS"></p>
+
+        <a href="http://www.urbanoutfitters.com/urban/index.jsp"><h4>Urban Outfitters:</h4></a>
+         <p id="UOS"></p>
+        <a href="http://www.forever21.com/"><h4>Forever 21:</h4></a> 
+          <p id="FS"></p>
+
 
         </div>
     </div>
