@@ -54,23 +54,26 @@ function HMPants() {
 			if (roundedAvg == 0) {
 				HMSize = "0"
 			}
-			if (roundedAvg == 1) {
+			else if (roundedAvg == 1) {
 				HMSize = "2"
 			}
-			if (roundedAvg == 2) {
+			else if (roundedAvg == 2) {
 				HMSize = "4"
 			}
-			if (roundedAvg == 3) {
+			else if (roundedAvg == 3) {
 				HMSize = "6"
 			}
-			if (roundedAvg == 4) {
+			else if (roundedAvg == 4) {
 				HMSize = "8"
 			}
-			if (roundedAvg == 5) {
+			else if (roundedAvg == 5) {
 				HMSize = "10"
 			}
-			if (roundedAvg == 6) {
+			else if (roundedAvg == 6) {
 				HMSize = "12"	
+			}
+			else {
+				Forever21Size = "error"
 			}
 			console.log(HMSize)
 			document.getElementById("HMSP").innerHTML = HMSize;

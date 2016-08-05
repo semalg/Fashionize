@@ -58,26 +58,29 @@ function F21Pants() {
 			if (roundedAvg == 0) {
 				Forever21Size = "24"
 			}
-			if (roundedAvg == 1) {
+			else if (roundedAvg == 1) {
 				Forever21Size = "25"
 			}
-			if (roundedAvg == 2) {
+			else if (roundedAvg == 2) {
 				Forever21Size = "26"
 			}
-			if (roundedAvg == 3) {
+			else if (roundedAvg == 3) {
 				Forever21Size = "27"
 			}
-			if (roundedAvg == 4) {
+			else if (roundedAvg == 4) {
 				Forever21Size = "28"
 			}
-			if (roundedAvg == 5) {
+			else if (roundedAvg == 5) {
 				Forever21Size = "29"
 			}
-			if (roundedAvg == 6) {
+			else if (roundedAvg == 6) {
 				Forever21Size = "30"	
 			}
-			if (roundedAvg == 7) {
+			else if (roundedAvg == 7) {
 				Forever21Size = "31"	
+			}
+			else {
+				Forever21Size = "error"
 			}
 			console.log(Forever21Size)
 			document.getElementById("F21SP").innerHTML = Forever21Size;
