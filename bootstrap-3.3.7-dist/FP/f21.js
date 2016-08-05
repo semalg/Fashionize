@@ -5,9 +5,7 @@ function F21Con() {
       var Wval = 0;
       var Hval = 0;
       var Bval = 0;
-      var f21Bfit = "";
-      var f21Wfit = "";
-      var f21Hfit = "";
+      
       if (w>=24 && w<=25) {
         Wval = 0
       }
@@ -75,56 +73,10 @@ function F21Con() {
       if (roundedAvg == 4) {
         FSize = "X-Large"  
       }
-      if (Bval == roundedAvg){
-        Bfit = "10"
-      }
-      else if ((Bval == roundedAvg+1) || (Bval == roundedAvg-1)){
-        Bfit = "8"
-      }
-      else if ((Bval == roundedAvg+2) || (Bval == roundedAvg-2)){
-        Bfit = "6"
-      }
-      else if ((Bval == roundedAvg+3) || (Bval == roundedAvg-3)){
-        Bfit = "4"
-      }
-      else{
-        Bfit = "2"
-      }
-      if (Wval == roundedAvg){
-        Wfit = "10"
-      }
-      else if ((Wval == roundedAvg+1) || (Wval == roundedAvg-1)){
-        Wfit = "8"
-      }
-      else if ((Wval == roundedAvg+2) || (Wval == roundedAvg-2)){
-        Wfit = "6"
-      }
-      else if ((Wval == roundedAvg+3) || (Wval == roundedAvg-3)){
-        Wfit = "4"
-      }
-      else{
-        Wfit = "2"
-      }
-      if (Hval == roundedAvg){
-        Hfit = "10"
-      }
-      else if ((Hval == roundedAvg+1) || (Hval == roundedAvg-1)){
-        Hfit = "8"
-      }
-      else if ((Hval == roundedAvg+2) || (Hval == roundedAvg-2)){
-        Hfit = "6"
-      }
-      else if ((Hval == roundedAvg+3) || (Hval == roundedAvg-3)){
-        Hfit = "4"
-      }
-      else{
-        Hfit = "2"
-      }
+      
       console.log(FSize)
       document.getElementById("FS").innerHTML = FSize;
-      document.getElementbyId("f21Bfit").innerHTML = Bfit;
-      document.getElementbyId("f21Wfit").innerHTML = Wfit;
-      document.getElementbyId("f21Hfit").innerHTML = Hfit;
+      
       // add the last three items to the HTML file whenever we do the table/chart thing
       // we will probably need to change the variables to something else so they don't get confused with the other brands
     }
