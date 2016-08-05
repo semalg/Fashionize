@@ -53,23 +53,25 @@ function UOPants() {
 			if (roundedAvg == 0) {
 				UOSize = "0"
 			}
-			if (roundedAvg == 1) {
+			else if (roundedAvg == 1) {
 				UOSize = "2"
 			}
-			if (roundedAvg == 2) {
+			else if (roundedAvg == 2) {
 				UOSize = "4"
 			}
-			if (roundedAvg == 3) {
+			else if (roundedAvg == 3) {
 				UOSize = "6"
 			}
-			if (roundedAvg == 4) {
+			else if (roundedAvg == 4) {
 				UOSize = "8"
 			}
-			if (roundedAvg == 5) {
+			else if (roundedAvg == 5) {
 				UOSize = "10"
 			}
-			if (roundedAvg == 6) {
+			else if (roundedAvg == 6) {
 				UOSize = "12"	
+			} else {
+				UOSize="Error"
 			}
 			console.log(UOSize)
 			document.getElementById("UOSP").innerHTML = UOSize;
