@@ -116,6 +116,7 @@ function F21Con() {
       }
       else{
         Hfit = "2"
+      }
       console.log(FSize)
       document.getElementById("FS").innerHTML = FSize;
       document.getElementbyId("f21Bfit").innerHTML = Bfit;
