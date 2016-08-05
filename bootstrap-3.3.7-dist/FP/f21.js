@@ -5,6 +5,9 @@ function F21Con() {
       var Wval = 0;
       var Hval = 0;
       var Bval = 0;
+      var f21Bfit = "";
+      var f21Wfit = "";
+      var f21Hfit = "";
       if (w>=24 && w<=25) {
         Wval = 0
       }
