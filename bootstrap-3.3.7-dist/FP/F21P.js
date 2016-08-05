@@ -80,5 +80,5 @@ function F21Pants() {
 				Forever21Size = "31"	
 			}
 			console.log(Forever21Size)
-			document.getElementById("F21SP").innerHTML = Forever21Size;
+			document.getElementById("FSP").innerHTML = Forever21Size;
 		}
