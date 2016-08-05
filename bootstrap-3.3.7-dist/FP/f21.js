@@ -78,13 +78,13 @@ function F21Con() {
       if (Bval == roundedAvg){
         Bfit = "10"
       }
-      else if (Bval == roundedAvg+1) || (Bval == roundedAvg-1){
+      else if ((Bval == roundedAvg+1) || (Bval == roundedAvg-1)){
         Bfit = "8"
       }
-      else if (Bval == roundedAvg+2) || (Bval == roundedAvg-2){
+      else if ((Bval == roundedAvg+2) || (Bval == roundedAvg-2)){
         Bfit = "6"
       }
-      else if (Bval == roundedAvg+3) || (Bval == roundedAvg-3){
+      else if ((Bval == roundedAvg+3) || (Bval == roundedAvg-3)){
         Bfit = "4"
       }
       else{
@@ -93,13 +93,13 @@ function F21Con() {
       if (Wval == roundedAvg){
         Wfit = "10"
       }
-      else if (Wval == roundedAvg+1) || (Wval == roundedAvg-1){
+      else if ((Wval == roundedAvg+1) || (Wval == roundedAvg-1)){
         Wfit = "8"
       }
-      else if (Wval == roundedAvg+2) || (Wval == roundedAvg-2){
+      else if ((Wval == roundedAvg+2) || (Wval == roundedAvg-2)){
         Wfit = "6"
       }
-      else if (Wval == roundedAvg+3) || (Wval == roundedAvg-3){
+      else if ((Wval == roundedAvg+3) || (Wval == roundedAvg-3)){
         Wfit = "4"
       }
       else{
@@ -108,13 +108,13 @@ function F21Con() {
       if (Hval == roundedAvg){
         Hfit = "10"
       }
-      else if (Hval == roundedAvg+1) || (Hval == roundedAvg-1){
+      else if ((Hval == roundedAvg+1) || (Hval == roundedAvg-1)){
         Hfit = "8"
       }
-      else if (Hval == roundedAvg+2) || (Hval == roundedAvg-2){
+      else if ((Hval == roundedAvg+2) || (Hval == roundedAvg-2)){
         Hfit = "6"
       }
-      else if (Hval == roundedAvg+3) || (Hval == roundedAvg-3){
+      else if ((Hval == roundedAvg+3) || (Hval == roundedAvg-3)){
         Hfit = "4"
       }
       else{
