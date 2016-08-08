@@ -1,6 +1,5 @@
 // H & M 
 function HMPants() {
-
 			var w = document.getElementById("waistsizep").value;
 			var h = document.getElementById("hipsizep").value;
 			var Wval = 0;
@@ -70,7 +69,7 @@ function HMPants() {
 				HMSize = "12"	
 			}
 			else {
-				Forever21Size = "error"
+				Forever21Size = "error"}
 
 // Fit Description
 			if (Wval == -1) {
@@ -116,7 +115,7 @@ function HMPants() {
 			}
 		}
 // URBAN OUTFITTERS 
-			function UOPants() {
+		function UOPants() {
 			var w = document.getElementById("waistsizep").value;
 			var h = document.getElementById("hipsizep").value;
 			var Wval = 0;
@@ -520,3 +519,4 @@ function HMPants() {
 				document.getElementById("F21HPfit").innerHTML = HPfit;
 			}
 		}
+		

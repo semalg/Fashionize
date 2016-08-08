@@ -461,6 +461,8 @@ function HMConverter() {
 			} if (CKWfit !== undefined) {
 				document.getElementById("CKWfit").innerHTML = Wfit;
 			} if (CKHfit !== undefined) {
-				document.getElementById("CKHfit").innerHTML = Hfit;
+				document.getElementById("CKHfit").innerHTML = Hfit;}
+
 			}
-		}
+			
+		
