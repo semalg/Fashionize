@@ -17,11 +17,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="CK.js"></script>
-    <script type="text/javascript" src="hm.js"></script>
-    <script type="text/javascript" src="UO.js"></script>
-    <script type="text/javascript" src="f21.js"></script>
-    <script type="text/javascript" src="fit.js"></script>
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -61,10 +56,10 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="Bras.html">Bras</a></li>
-              <li class="active"><a href="Shirts.html">Shirts</a></li>
+              <li><a href="Shirts.html">Shirts</a></li>
               <li><a href="Shoes.html">Shoes</a></li>
               <li><a href="Pants.html">Pants</a></li>
-              <li><a href="StyleTips.html">Style Tips</a></li>
+              <li class="active"><a href="StyleTips.html">Style Tips</a></li>
               <li><a href="Related.html">Related</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -72,7 +67,7 @@
       </nav>
     <br>
     <br>
-    <center><h2><u>Shirts</u></h2></center>
+    <center><h2><u>Style Tips</u></h2></center>
     <br>
   <div class="container">
   <br>
@@ -90,7 +85,7 @@
       <div class="item active">
         <img src="FASHLOGO.png">
         <div class="carousel-caption" id="s">
-          <h3> To measure your BUST, measure under your arms at the fullest part of your bust, making sure to go over your shoulder blades.
+          <h3> #
           </h3>
         </div>
       </div>
@@ -99,14 +94,14 @@
       <div class="item" id="s">
         <img src="FASHLOGO.png">
         <div class="carousel-caption">
-          <h3>To measure your NATURAL WAIST, measure the narrowest part of your waistline with one finger between your body and the measuring tape. </h3>
+          <h3>#</h3>
         </div>
       </div>
     
       <div class="item" id="s">
         <img src="FASHLOGO.png">
         <div class="carousel-caption">
-          <h3> To measure your HIPS, measure around the fullest part of your hips with your feet 6 inches apart. </h3>
+          <h3> # </h3>
         </div>
       </div>
 
@@ -127,89 +122,14 @@
 
 <br>
 <center>
-  <div class="flex-container">
-    <div class="alert alert-info" role="alert">
-        <div class="col-md-4">
-         <h4> <b>Input your measurements!</b></h4> 
-          <p>
-            <form id="bust">
-              Bust Measurement: <input type="number" name="BustM" value="" id="bustsize"><br>
-            </form>
-            <form id="waist">
-              Waist Measurement: <input type="number" name="WaistM" value="" id="waistsize"><br>
-            </form>
-            <form id="hips">  
-              Hips Measurement: <input type="number" name="HipsM" value="" id="hipsize"><br>
-            </form>
-              <input type="submit" value="Enter" onclick="CKCon();HMCon();UOCon();F21Con(); CKConverter(); HMConverter(); UOConverter();F21Converter();"> 
-
-          </p>
-          
-        </div>
-        <div class="col-md-4">
-        <img src="smeasure.gif" height="250" width="175">
-        </div>
-        <div class="col-md-4">
-        <p> <b> <h4> Your Size! </h4> </b></p>
-        <a href="http://www.forever21.com/"><h4>Forever 21:</h4></a> 
-          <p id="FS"></p>
-        <a href="http://www.calvinklein.com/shop/en/ck"><h4>Calvin Klein:</h4></a> 
-          <p id="CKS"></p>
-
-        <a href="http://www.hm.com/us/"><h4>H&M:</h4></a>
-          <p id="HMS"></p>
-
-        <a href="http://www.urbanoutfitters.com/urban/index.jsp"><h4>Urban Outfitters:</h4></a>
-         <p id="UOS"></p>
-        
-
-
-        </div>
-    </div>
-  </div>
+ 
 </center>
 
 
 <div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
 
 
-<center>
-  <div class="flex-container">
-    <div class="alert alert-danger" role="alert">
-      <table style = "width: 100%">
-      <tr>
-        <center>
-        <th><center>*10 is the best fit possible.*</center></th>
-        <th><center>Forever 21</center></th>
-        <th><center>Calvin Klein</center></th>
-        <th><center>H&M</center></th>
-        <th><center>Urban Outfitters</center></th>
-        </center>
-      </tr>
-      <tr>
-        <td><b>Bust:</b></td>
-        <td><p id = "F21Bfit">?</p></td>
-        <td><p id = "CKBfit">?</p></td>
-        <td><p id = "HMBfit">?</p></td>
-        <td><p id = "UOBfit">?</p></td>
-      </tr>
-      <tr>
-        <td><b>Waist:</b></td>
-        <td><p id = "F21Wfit">?</p></td>
-        <td><p id = "CKWfit">?</p></td>
-        <td><p id = "HMWfit">?</p></td>
-        <td><p id = "UOWfit">?</p></td>
-      </tr>
-      <tr>
-        <td><b>Hips:</b></td>
-        <td><p id = "F21Hfit">?</p></td>
-        <td><p id = "CKHfit">?</p></td>
-        <td><p id = "HMHfit">?</p></td>
-        <td><p id = "UOHfit">?</p></td>
-      </tr>
-    </table>
 
-</center>
 
 <div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
 <style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
