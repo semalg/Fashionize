@@ -19,9 +19,7 @@ function CKCon() {
 			}
 			else if (b>38.5 && b<=40) {
 				Bval = 4
-			} else {
-				Bval = "Try again"
-			}
+			} 
 			if (w>=29 && w<=30) {
 				Wval = 0
 			}
@@ -36,9 +34,7 @@ function CKCon() {
 			}
 			else if (w>35.5 && w<=37) {
 				Wval = 4
-			} else {
-				Wval = "Try again"
-			}
+			} 
 			if (h>=37 && h<=38) {
 				Hval = 0
 			}
@@ -53,9 +49,7 @@ function CKCon() {
 			}
 			else if (h>43.5 && h<=45) {
 				Hval = 4
-			} else {
-				Hval = "Try again"
-			}
+			} 
 			sum = Bval + Hval + Wval
 			quotient = sum/3
 			roundedAvg = Math.round(quotient)
@@ -74,9 +68,8 @@ function CKCon() {
 			}
 			else if (roundedAvg == 4) {
 				CKSize = "X-Large"	
-			} else {
-				CKSize = "Error"
-			}
+			} 
+			
 			
 			
 			console.log(CKSize)

@@ -16,9 +16,7 @@ function HMCon() {
 					bval = 3;
 				} else if (45 <= b && 46 >= b) {
 					bval = 4;
-				} else {
-					bval = "Try again"
-				}
+				} 
 				
 
 				if (23.5 <= w && 25.5 >= w) {
@@ -31,9 +29,7 @@ function HMCon() {
 					wval = 3;
 				} else if (37 <= w && 39.5 >= w) {
 					wval = 4;
-				} else {
-					wval = "Try again"
-				}
+				} 
 				
 
 				if (33 <= h && 34.5 >= h) {
@@ -46,9 +42,7 @@ function HMCon() {
 					hval = 3;
 				} else if (46 <= h && 48 >= h) {
 					hval = 4;
-				} else {
-					hval = "Try again"
-				}
+				} 
 
 				sum = bval + wval + hval
 				quotient = sum/3
@@ -68,9 +62,7 @@ function HMCon() {
 				}
 				 else if (roundedAverage == 4) {
 					hmSize = "X-Large";
-				} else {
-					hmSize = "Error"
-				}
+				} 
 
 				console.log(hmSize)
 				document.getElementById("HMS").innerHTML = hmSize;

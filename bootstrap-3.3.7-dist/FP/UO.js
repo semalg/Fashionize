@@ -18,9 +18,7 @@ function UOCon() {
 			else if (w>30 && w<=34) {
 				Wval = 3;
 			}
-			else{
-				Wval = "Try again"
-			}
+			
 
 			if (h>=34 && h<=36) {
 				Hval = 0;
@@ -33,8 +31,6 @@ function UOCon() {
 			}
 			else if (h>40 && h<=43) {
 				Hval = 3;
-			} else {
-				Hval = "Try again"
 			}
 			
 			if (b>=32 && b<=34) {
@@ -48,9 +44,7 @@ function UOCon() {
 			}
 			else if (b>38 && b<=40) {
 				Bval = 3;
-			} else {
-				Bval = "Try again"
-			}
+			} 
 			
 			sum = Bval + Hval + Wval
 			quotient = sum/3
@@ -67,9 +61,7 @@ function UOCon() {
 			}
 			else if (roundedAvg == 3) {
 				UOSize = "Large"
-			} else {
-				UOSize = "Error"
-			}
+			} 
 
 			console.log(UOSize)
 			document.getElementById("UOS").innerHTML = UOSize;
