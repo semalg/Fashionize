@@ -33,3 +33,107 @@ th {
 	width: 350px;
 	border-bottom: 1px solid #ddd;
 	}
+
+#DescL{width: 750px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 7px;
+	margin-right: 125px; 
+	text-align: center;
+	}
+
+#DescR{width: 750px;
+	height: 200px;
+	margin-top: 50px;
+	margin-right: 1px;
+	margin-left: 120px;
+	text-align: center; 
+	}
+
+#iL{margin-left: 125px; }
+
+#iR{margin-right: 20px;}
+
+
+
+.Row{display: table;}
+
+#BT1{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT2{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT3{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT4{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+#BT5{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT6{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+#BT7{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT1W{height: 200px;
+	text-align: center;
+}
+
+#BT2W{height: 200px;
+	text-align: center;}
+
+#BT3W{height: 200px;
+	text-align: center;
+}
+
+#BT4W{height: 200px;
+	text-align: center;}
+
+#BT5W{height: 200px;
+	text-align: center;
+}
+
+#BT6W{height: 200px;
+	text-align: center;}
+
+#BT7W{height: 200px;
+	text-align: center;
+}
+
+
+#row1{padding-bottom: 200px;}
+
+#row2{padding-top: 50px;}
