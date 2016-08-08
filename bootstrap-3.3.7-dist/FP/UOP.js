@@ -1,4 +1,4 @@
-function UOPants() {
+function UOPantsCon() {
 			var w = document.getElementById("waistsizep").value;
 			var h = document.getElementById("hipsizep").value;
 			var Wval = 0;
