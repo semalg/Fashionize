@@ -6354,24 +6354,6 @@ button.close {
   background-repeat: repeat-x;
 }
 
-        .carousel-control.left {
-          background-image: -webkit-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
-          background-image:      -o-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
-          background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 255, .5)), to(rgba(174, 36, 225, .0001)));
-          background-image:         linear-gradient(to right, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-          background-repeat: repeat-x;
-        }
-        .carousel-control.right {
-          right: 0;
-          left: auto;
-          background-image: -webkit-linear-gradient(left, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
-          background-image:      -o-linear-gradient(left, rgba(174, 36, 225, .0001)0%, rgba(174, 36, 255, .5) 100%);
-          background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 225, .0001), to(rgba(174, 36, 255, .5)))
-          background-image:         linear-gradient(to right, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-          background-repeat: repeat-x;
-        }
 .carousel-control:hover,
 .carousel-control:focus {
   color: #fff;
