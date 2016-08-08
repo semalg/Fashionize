@@ -20,6 +20,8 @@ function F21Con() {
       }
       else if (w>=32 && w<=33) {
         Wval = 4
+      } else {
+        Wval = "Try again"
       }
       
       if (h>=33 && h<=34) {
@@ -36,6 +38,8 @@ function F21Con() {
       }
       else if (h>=45 && h<=47) {
         Hval = 4
+      } else {
+        Hval = "Try again"
       }
       
       if (b>=32 && b<=33) {
@@ -52,6 +56,8 @@ function F21Con() {
       }
       else if (b>=40 && b<=45) {
         Bval = 4
+      } else {
+        Bval = "Try again"
       }
       
       sum = Bval + Hval + Wval
@@ -72,6 +78,8 @@ function F21Con() {
       }
       if (roundedAvg == 4) {
         FSize = "X-Large"  
+      } else {
+        FSize = "Error"
       }
       
       console.log(FSize)

@@ -15,10 +15,11 @@ function HMCon() {
 				} else if (39.5 <= b && 41 >= b) {
 					bval = 3;
 				} else if (45 <= b && 46 >= b) {
-					bval = 4;}
-				// } else {
-				// 	document.write("Sorry, we can't compute this.")
-				// } 
+					bval = 4;
+				} else {
+					bval = "Try again"
+				}
+				
 
 				if (23.5 <= w && 25.5 >= w) {
 					wval = 0;
@@ -29,10 +30,11 @@ function HMCon() {
 				} else if (33 <= w && 34.5 >= w) {
 					wval = 3;
 				} else if (37 <= w && 39.5 >= w) {
-					wval = 4;}
-				// } else {
-				// 	document.write("Sorry, we can't compute this.")
-				// }
+					wval = 4;
+				} else {
+					wval = "Try again"
+				}
+				
 
 				if (33 <= h && 34.5 >= h) {
 					hval = 0;
@@ -43,10 +45,10 @@ function HMCon() {
 				} else if (42.5 <= h && 44 >= h) {
 					hval = 3;
 				} else if (46 <= h && 48 >= h) {
-					hval = 4;}
-				// } else {
-				// 	document.write("Sorry, we can't compute this.")
-				// }
+					hval = 4;
+				} else {
+					hval = "Try again"
+				}
 
 				sum = bval + wval + hval
 				quotient = sum/3
@@ -55,17 +57,19 @@ function HMCon() {
 				if (roundedAverage == 0) {
 					hmSize = "X-Small";
 				}
-				if (roundedAverage == 1) {
+				 else if (roundedAverage == 1) {
 					hmSize = "Small";
 				}
-				if (roundedAverage == 2) {
+				 else if (roundedAverage == 2) {
 					hmSize = "Medium";
 				}
-				if (roundedAverage == 3) {
+				 else if (roundedAverage == 3) {
 					hmSize = "Large";
 				}
-				if (roundedAverage == 4) {
+				 else if (roundedAverage == 4) {
 					hmSize = "X-Large";
+				} else {
+					hmSize = "Error"
 				}
 
 				console.log(hmSize)

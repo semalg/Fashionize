@@ -19,7 +19,7 @@ function UOCon() {
 				Wval = 3;
 			}
 			else{
-				Wval = "Error"
+				Wval = "Try again"
 			}
 
 			if (h>=34 && h<=36) {
@@ -33,6 +33,8 @@ function UOCon() {
 			}
 			else if (h>40 && h<=43) {
 				Hval = 3;
+			} else {
+				Hval = "Try again"
 			}
 			
 			if (b>=32 && b<=34) {
@@ -46,6 +48,8 @@ function UOCon() {
 			}
 			else if (b>38 && b<=40) {
 				Bval = 3;
+			} else {
+				Bval = "Try again"
 			}
 			
 			sum = Bval + Hval + Wval
@@ -55,14 +59,16 @@ function UOCon() {
 			if (roundedAvg == 0) {
 				UOSize = "X-Small"
 			}
-			if (roundedAvg == 1) {
+			 else if (roundedAvg == 1) {
 				UOSize = "Small"
 			}
-			if (roundedAvg == 2) {
+			else if (roundedAvg == 2) {
 				UOSize = "Medium"
 			}
-			if (roundedAvg == 3) {
+			else if (roundedAvg == 3) {
 				UOSize = "Large"
+			} else {
+				UOSize = "Error"
 			}
 
 			console.log(UOSize)
