@@ -1,5 +1,6 @@
 body{background-color: #FFDBF4;
-	font-family: "Comfortaa", cursive}
+	font-family: "Comfortaa", cursive;
+	 overflow-x:hidden;}
 
 #missionstate{width: 350px}
 
@@ -139,3 +140,6 @@ th {
 #row1{padding-bottom: 200px;}
 
 #row2{padding-top: 50px;}
+
+#Label{font-size: 18px;
+}
