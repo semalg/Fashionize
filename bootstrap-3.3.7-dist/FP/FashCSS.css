@@ -1,5 +1,6 @@
 body{background-color: #FFDBF4;
-	font-family: "Comfortaa", cursive}
+	font-family: "Comfortaa", cursive;
+	 overflow-x:hidden;}
 
 #missionstate{width: 350px}
 
