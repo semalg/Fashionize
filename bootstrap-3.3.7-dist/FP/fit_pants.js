@@ -69,21 +69,21 @@ function HMPants() {
 				HMSize = "12"	
 			}
 			else {
-				Forever21Size = "error"}
+				Forever21Size = "Error"}
 
 // Fit Description
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "14"
-			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "12"
-			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "10"
-			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
+			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
 				WPfit = "8"
-			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "6"
+			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
+				WPfit = "6"
+			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+				WPfit = "4"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
 				WPfit = "4"
 			} else {
@@ -93,15 +93,15 @@ function HMPants() {
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "14"
-			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "12"
-			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "10"
-			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
+			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
 				HPfit = "8"
-			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "6"
+			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
+				HPfit = "6"
+			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+				HPfit = "4"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
 				HPfit = "4"
 			} else {
@@ -199,15 +199,15 @@ function HMPants() {
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "14"
-			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "12"
-			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "10"
-			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
+			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
 				WPfit = "8"
-			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "6"
+			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
+				WPfit = "6"
+			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+				WPfit = "4"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
 				WPfit = "4"
 			} else {
@@ -217,15 +217,15 @@ function HMPants() {
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "14"
-			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "12"
-			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "10"
-			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
+			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
 				HPfit = "8"
-			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "6"
+			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
+				HPfit = "6"
+			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+				HPfit = "4"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
 				HPfit = "4"
 			} else {
@@ -305,49 +305,49 @@ function HMPants() {
 			roundedAvg = Math.round(quotient)
 			var CKPSize = "";
 			if (roundedAvg == 0) {
-				CKPSize = "0 (XS)"
+				CKPSize = "0"
 			}
 			if (roundedAvg == 1) {
-				CKPSize = "2 (XS)"
+				CKPSize = "2"
 			}
 			if (roundedAvg == 2) {
-				CKPSize = "4 (S)"
+				CKPSize = "4"
 			}
 			if (roundedAvg == 3) {
-				CKPSize = "6 (S)"
+				CKPSize = "6"
 			}
 			if (roundedAvg == 4) {
-				CKPSize = "8 (M)"
+				CKPSize = "8"
 			}
 			if (roundedAvg == 5) {
-				CKPSize = "10 (M)"
+				CKPSize = "10"
 			}
 			if (roundedAvg == 6) {
-				CKPSize = "12 (L)"	
+				CKPSize = "12"	
 			}
 			if (roundedAvg == 7) {
-				CKPSize = "14 (L)"	
+				CKPSize = "14"	
 			}
 			if (roundedAvg == 8) {
-				CKPSize = "16 (XL)"	
+				CKPSize = "16"	
 			}
 // FIT DESCRIPTION
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "14"
-			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "12"
-			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "10"
-			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "9"
-			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
+				WPfit = "10"
+			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "8"
-			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
-				WPfit = "7"
-			}else if ((Wval == roundedAvg + 6) || (Wval == roundedAvg - 6)) {
+			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
+				WPfit = "8"
+			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
 				WPfit = "6"
+			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
+				WPfit = "6"
+			}else if ((Wval == roundedAvg + 6) || (Wval == roundedAvg - 6)) {
+				WPfit = "4"
 			}else if ((Wval == roundedAvg + 7) || (Wval == roundedAvg - 7)) {
 				WPfit = "4"
 			} else {
@@ -357,19 +357,19 @@ function HMPants() {
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "14"
-			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "12"
-			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "10"
-			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "9"
-			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
+				HPfit = "10"
+			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "8"
-			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
-				HPfit = "7"
-			}else if ((Hval == roundedAvg + 6) || (Hval == roundedAvg - 6)) {
+			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
+				HPfit = "8"
+			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
 				HPfit = "6"
+			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
+				HPfit = "6"
+			}else if ((Hval == roundedAvg + 6) || (Hval == roundedAvg - 6)) {
+				HPfit = "4"
 			}else if ((Hval == roundedAvg + 7) || (Hval == roundedAvg - 7)) {
 				HPfit = "4"
 			} else {
@@ -470,23 +470,23 @@ function HMPants() {
 				Forever21Size = "31"	
 			}
 			else {
-				Forever21Size = "error"
+				Forever21Size = "Error"
 			}
 // FIT DESCRIPTION 
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "14"
-			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "12"
-			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
 				WPfit = "10"
-			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "9"
-			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
 				WPfit = "8"
-			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
+			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
+				WPfit = "8"
+			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
 				WPfit = "6"
+			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
+				WPfit = "6"
+			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
+				WPfit = "4"
 			}else if ((Wval == roundedAvg + 6) || (Wval == roundedAvg - 6)) {
 				WPfit = "4"
 			} else {
@@ -496,17 +496,17 @@ function HMPants() {
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "14"
-			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "12"
-			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
 				HPfit = "10"
-			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "9"
-			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
 				HPfit = "8"
-			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
+			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
+				HPfit = "8"
+			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
 				HPfit = "6"
+			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
+				HPfit = "6"
+			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
+				HPfit = "4"
 			}else if ((Hval == roundedAvg + 6) || (Hval == roundedAvg - 6)) {
 				HPfit = "4"
 			} else {
