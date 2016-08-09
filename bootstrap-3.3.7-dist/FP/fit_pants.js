@@ -75,37 +75,37 @@ function HMPants() {
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "10"
+				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			} else {
-				WPfit = "2"
+				WPfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "10"
+				HPfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			} else {
-				HPfit = "2"
+				HPfit = "2/10"
 			}
 
 			if (HMWPfit !== undefined) {
@@ -199,37 +199,37 @@ function HMPants() {
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "10"
+				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			} else {
-				WPfit = "2"
+				WPfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "10"
+				HPfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			} else {
-				HPfit = "2"
+				HPfit = "2/10"
 			}
 
 			if (UOWPfit !== undefined) {
@@ -335,45 +335,45 @@ function HMPants() {
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "10"
+				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "10"
+				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 6) || (Wval == roundedAvg - 6)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			}else if ((Wval == roundedAvg + 7) || (Wval == roundedAvg - 7)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			} else {
-				WPfit = "2"
+				WPfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "10"
+				HPfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "10"
+				HPfit = "10/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 6) || (Hval == roundedAvg - 6)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			}else if ((Hval == roundedAvg + 7) || (Hval == roundedAvg - 7)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			} else {
-				HPfit = "2"
+				HPfit = "2/10"
 			}
 
 			if (CKWPfit !== undefined) {
@@ -476,41 +476,41 @@ function HMPants() {
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
 			} else if (Wval == roundedAvg) {
-				WPfit = "10"
+				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				WPfit = "8"
+				WPfit = "8/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 4) || (Wval == roundedAvg - 4)) {
-				WPfit = "6"
+				WPfit = "6/10"
 			}else if ((Wval == roundedAvg + 5) || (Wval == roundedAvg - 5)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			}else if ((Wval == roundedAvg + 6) || (Wval == roundedAvg - 6)) {
-				WPfit = "4"
+				WPfit = "4/10"
 			} else {
-				WPfit = "2"
+				WPfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				HPfit = "Invalid Hips Size"
 			} else if (Hval == roundedAvg) {
-				HPfit = "10"
+				HPfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				HPfit = "8"
+				HPfit = "8/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 4) || (Hval == roundedAvg - 4)) {
-				HPfit = "6"
+				HPfit = "6/10"
 			}else if ((Hval == roundedAvg + 5) || (Hval == roundedAvg - 5)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			}else if ((Hval == roundedAvg + 6) || (Hval == roundedAvg - 6)) {
-				HPfit = "4"
+				HPfit = "4/10"
 			} else {
-				HPfit = "2"
+				HPfit = "2/10"
 			}
 
 			if (F21WPfit !== undefined) {
