@@ -69,7 +69,10 @@ function HMPants() {
 				HMSize = "12"	
 			}
 			else {
+ HEAD
+				Forever21Size = "error"
 				Forever21Size = "Error"}
+
 
 // Fit Description
 			if (Wval == -1) {
@@ -113,7 +116,7 @@ function HMPants() {
 			} if (HMHPfit !== undefined) {
 				document.getElementById("HMHPfit").innerHTML = HPfit;
 			}
-		}
+}
 // URBAN OUTFITTERS 
 		function UOPants() {
 			var w = document.getElementById("waistsizep").value;
