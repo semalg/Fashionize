@@ -5,10 +5,12 @@ function BraS(){
 	var CupS = 0;
 	var mo = BandInp%2;
 	if (mo==0) {
-		BandS = BandInp + 4;
+		BandS = BandInp + 2;
 	} else { 
-		BandS = BandInp +5;	
+		BandS = BandInp +1;	
 	}
+	if ((BandInp<=25) || (BandInp>= 53))
+		BandS = "?";
 
 	if ((BustInp-BandInp)==7){
 		CupS = "G";

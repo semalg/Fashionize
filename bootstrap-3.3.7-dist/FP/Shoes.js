@@ -72,15 +72,11 @@ function Sh() {
 				us = 12;
 				uk = 10;
 				eur = "42 to 43";
-			} else{
-				us = "invalid input"
-				uk = "invalid input"
-				eur = "invalid input"
-			}
+			} 
 			console.log(us);
 			console.log(uk);
 			console.log(eur);
 			document.getElementById("USS").innerHTML = us;
 			document.getElementById("UKS").innerHTML = uk;
 			document.getElementById("EUS").innerHTML = eur;
-		
+		}
