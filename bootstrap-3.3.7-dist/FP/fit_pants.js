@@ -71,7 +71,7 @@ function HMPants() {
 			}
 			else {
 				Forever21Size = "error"
-
+			}
 // Fit Description
 			if (Wval == -1) {
 				WPfit = "Invalid Waste Size"
