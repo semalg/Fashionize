@@ -5,7 +5,7 @@ function BraS(){
 	var CupS = 0;
 	var mo = BandInp%2;
 	if (mo==0) {
-		BandS = BandInp + 2;
+		BandS = BandInp + 0;
 	} else { 
 		BandS = BandInp +1;	
 	}
