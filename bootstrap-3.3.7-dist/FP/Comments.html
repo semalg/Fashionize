@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="micon.png">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Comments</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="FashCSS.css">
+
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyAOuzH_T2gHEmIWlcrqElzgd37cKPIETEo",
+		    authDomain: "fashionize-a06c1.firebaseapp.com",
+		    databaseURL: "https://fashionize-a06c1.firebaseio.com",
+		    storageBucket: "fashionize-a06c1.appspot.com",
+		    };
+		  firebase.initializeApp(config);
+
+		  // A post entry.
+		  var postData = {
+		    author: "nikki",
+		    title: "title",
+		    body: "comment"
+		    };
+
+		  // Get a key for a new Post.
+		  var newPostKey = firebase.database().ref().child('posts').push().key;
+
+		  // Write the new post's data simultaneously in the posts list and the user's post list.
+		  var updates = {};
+		  updates['/posts/' + newPostKey] = postData;
+
+		  firebase.database().ref().update(updates);
+
+		  firebase.database().ref().child('posts').on('value', function(snapshot) {
+		    console.log(snapshot.val());
+		  });
+
+		  // firebase.database().ref().child('posts').on('value', function(snapshot) {
+		  //   document.write(snapshot.val());
+		  // });
+		</script>
+	</head>
+
+	<body>
+		<center>
+		<div id="divName">
+			<form method='post'>
+				Name: <input type='text' name='name' id='name'><br>
+
+				Email: <input type='text' name='email' id='email'><br>
+
+				Comment:<br>
+				<textarea name='comment' id='comment'></textarea><br>
+
+<!-- 				<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /> -->
+
+				<input type='submit' value='Submit' onclick="printDiv('print-content')">
+			</form>
+		</div>
+		</center>
+
+		<script type="text/javascript">
+			function printDiv() {
+				var printContents = document.getElementById("divName").innerHTML;
+				}
+		</script>
+
+		<!-- Cursor -->
+		<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+		<style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</body>
+</html>

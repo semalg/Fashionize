@@ -67,43 +67,43 @@ function HMConverter() {
 			if (bval == -1) {
 				Bfit = "Invalid Bust Size"
 			} else if (bval == roundedAvg) {
-				Bfit = "10"
+				Bfit = "10/10"
 			} else if ((bval == roundedAvg + 1) || (bval == roundedAvg - 1)) {
-				Bfit = "8"
+				Bfit = "8/10"
 			} else if ((bval == roundedAvg + 2) || (bval == roundedAvg - 2)) {
-				Bfit = "6"
+				Bfit = "6/10"
 			} else if ((bval == roundedAvg + 3) || (bval == roundedAvg - 3)) {
-				Bfit = "4"
+				Bfit = "4/10"
 			} else {
-				Bfit = "2"
+				Bfit = "2/10"
 			}
 
 			if (wval == -1) {
 				Wfit = "Invalid Waist Size"
 			} else if (wval == roundedAvg) {
-				Wfit = "10"
+				Wfit = "10/10"
 			} else if ((wval == roundedAvg + 1) || (wval == roundedAvg - 1)) {
-				Wfit = "8"
+				Wfit = "8/10"
 			} else if ((wval == roundedAvg + 2) || (wval == roundedAvg - 2)) {
-				Wfit = "6"
+				Wfit = "6/10"
 			} else if ((wval == roundedAvg + 3) || (wval == roundedAvg - 3)) {
-				Wfit = "4"
+				Wfit = "4/10"
 			} else {
-				Wfit = "2"
+				Wfit = "2/10"
 			}
 
 			if (hval == -1) {
 				Hfit = "Invalid Hip Size"
 			} else if (hval == roundedAvg) {
-				Hfit = "10"
+				Hfit = "10/10"
 			} else if ((hval == roundedAvg + 1) || (hval == roundedAvg - 1)) {
-				Hfit = "8"
+				Hfit = "8/10"
 			} else if ((hval == roundedAvg + 2) || (hval == roundedAvg - 2)) {
-				Hfit = "6"
+				Hfit = "6/10"
 			} else if ((hval == roundedAvg + 3) || (val == roundedAvg - 3)) {
-				Hfit = "4"
+				Hfit = "4/10"
 			} else {
-				Hfit = "2"
+				Hfit = "2/10"
 			}
 
 			if (HMBfit !== undefined) {
@@ -179,43 +179,43 @@ function HMConverter() {
 			if (Bval == -1) {
 				Bfit = "Invalid bust size"
 			} else if (Bval == roundedAvg) {
-				Bfit = "10"
+				Bfit = "10/10"
 			} else if ((Bval == roundedAvg + 1) || (Bval == roundedAvg - 1)) {
-				Bfit = "8"
+				Bfit = "8/10"
 			} else if ((Bval == roundedAvg + 2) || (Bval == roundedAvg - 2)) {
-				Bfit = "6"
+				Bfit = "6/10"
 			} else if ((Bval == roundedAvg + 3) || (Bval == roundedAvg - 3)) {
-				Bfit = "4"
+				Bfit = "4/10"
 			} else {
-				Bfit = "2"
+				Bfit = "2/10"
 			} 
 
 			if (Wval == -1) {
 				Wfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
-				Wfit = "10"
+				Wfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				Wfit = "8"
+				Wfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				Wfit = "6"
+				Wfit = "6/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				Wfit = "4"
+				Wfit = "4/10"
 			} else {
-				Wfit = "2"
+				Wfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				Hfit = "Invalid Hip Size" 
 			} else if (Hval == roundedAvg) {
-				Hfit = "10"
+				Hfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				Hfit = "8"
+				Hfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				Hfit = "6"
+				Hfit = "6/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				Hfit = "4"
+				Hfit = "4/10"
 			} else {
-				Hfit = "2"
+				Hfit = "2/10"
 			}
 
 			if (UOBfit !== undefined) {
@@ -298,43 +298,43 @@ function HMConverter() {
 			if (Bval == -1) {
 				Bfit = "Invalid Bust Size"
 			} else if (Bval == roundedAvg) {
-				Bfit = "10"
+				Bfit = "10/10"
 			} else if ((Bval == roundedAvg + 1) || (Bval == roundedAvg - 1)) {
-				Bfit = "8"
+				Bfit = "8/10"
 			} else if ((Bval == roundedAvg + 2) || (Bval == roundedAvg - 2)) {
-				Bfit = "6"
+				Bfit = "6/10"
 			} else if ((Bval == roundedAvg + 3) || (Bval == roundedAvg - 3)) {
-				Bfit = "4"
+				Bfit = "4/10"
 			} else {
-				Bfit = "2"
+				Bfit = "2/10"
 			}
 			
 			if (Wval == -1) {
 				Wfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
-				Wfit = "10"
+				Wfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				Wfit = "8"
+				Wfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				Wfit = "6"
+				Wfit = "6/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				Wfit = "4"
+				Wfit = "4/10"
 			} else {
-				Wfit = "2"
+				Wfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				Hfit == "Invalid Hip Size"
 			} else if (Hval == roundedAvg) {
-				Hfit = "10"
+				Hfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				Hfit = "8"
+				Hfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				Hfit = "6"
+				Hfit = "6/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				Hfit = "4"
+				Hfit = "4/10"
 			} else {
-				Hfit = "2"
+				Hfit = "2/10"
 			}
 
 			if (F21Bfit !== undefined) {
@@ -417,43 +417,43 @@ function HMConverter() {
 			if (Bval == -1) {
 				Bfit = "Invalid Bust Size"
 			} else if (Bval == roundedAvg) {
-				Bfit = "10"
+				Bfit = "10/10"
 			} else if ((Bval == roundedAvg + 1) || (Bval == roundedAvg - 1)) {
-				Bfit = "8"
+				Bfit = "8/10"
 			} else if ((Bval == roundedAvg + 2) || (Bval == roundedAvg - 2)) {
-				Bfit = "6"
+				Bfit = "6/10"
 			} else if ((Bval == roundedAvg + 3) || (Bval == roundedAvg - 3)) {
-				Bfit = "4"
+				Bfit = "4/10"
 			} else {
-				Bfit = "2"
+				Bfit = "2/10"
 			}
 			
 			if (Wval == -1) {
 				Wfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
-				Wfit = "10"
+				Wfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
-				Wfit = "8"
+				Wfit = "8/10"
 			} else if ((Wval == roundedAvg + 2) || (Wval == roundedAvg - 2)) {
-				Wfit = "6"
+				Wfit = "6/10"
 			} else if ((Wval == roundedAvg + 3) || (Wval == roundedAvg - 3)) {
-				Wfit = "4"
+				Wfit = "4/10"
 			} else {
-				Wfit = "2"
+				Wfit = "2/10"
 			}
 
 			if (Hval == -1) {
 				Hfit = "Invalid Hip Size"
 			} else if (Hval == roundedAvg) {
-				Hfit = "10"
+				Hfit = "10/10"
 			} else if ((Hval == roundedAvg + 1) || (Hval == roundedAvg - 1)) {
-				Hfit = "8"
+				Hfit = "8/10"
 			} else if ((Hval == roundedAvg + 2) || (Hval == roundedAvg - 2)) {
-				Hfit = "6"
+				Hfit = "6/10"
 			} else if ((Hval == roundedAvg + 3) || (Hval == roundedAvg - 3)) {
-				Hfit = "4"
+				Hfit = "4/10"
 			} else {
-				Hfit = "2"
+				Hfit = "2/10"
 			}
 
 			if (CKBfit !== undefined) {
@@ -461,6 +461,8 @@ function HMConverter() {
 			} if (CKWfit !== undefined) {
 				document.getElementById("CKWfit").innerHTML = Wfit;
 			} if (CKHfit !== undefined) {
-				document.getElementById("CKHfit").innerHTML = Hfit;
+				document.getElementById("CKHfit").innerHTML = Hfit;}
+
 			}
-		}
+			
+		

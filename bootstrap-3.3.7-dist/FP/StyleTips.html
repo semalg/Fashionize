@@ -1,143 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="micon.png">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
-    <link href="../css/carousel.css" rel="stylesheet">
-   
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Fashionize Shirts</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-      }
-    .carousel-caption {
-      top: 0;
-      bottom: auto;
-      color: #7395e2
-}
-}
-    </style>
+	<head>
+		<link rel="icon" href="micon.png">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
+		<link href="../css/carousel.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="FashCSS.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-     <nav class="navbar navbar-default navbar-fixed-top">
-     <img src="logo.png" height="50px" width="100px" align="left">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="Fashionize.html">Fashionize</a>
+		<title>Fashionize Styles</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- CSS -->
+		<style>
+			/*Carousel Style*/
+			.carousel-inner > .item > img,
+			.carousel-inner > .item > a > img {
+				width: 100%;
+				margin: auto;
+				}
+			.carousel-caption {
+				top: 0;
+				bottom: auto;
+				color: #7395e2
+				}
+			.carousel-control.left {
+				background-image: -webkit-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				background-image:      -o-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 255, .5)), to(rgba(174, 36, 225, .0001)));
+				background-image:         linear-gradient(to right, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+				background-repeat: repeat-x;
+				}
+			.carousel-control.right {
+				right: 0;
+				left: auto;
+				background-image: -webkit-linear-gradient(left, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				background-image:      -o-linear-gradient(left, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 225, .0001)), to(rgba(174, 36, 255, .5)));
+				background-image:         linear-gradient(to right, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+				background-repeat: repeat-x;
+				}
+		</style>
+
+		<link rel="stylesheet" type="text/css" href="FashCSS.css">
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		<a href="Fashionize.html"><img src="logo.png" height="50px" width="100px" align="left"></a> <!-- Logo -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="Fashionize.html">Fashionize</a>
+				</div>
+				<!-- Tabs -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="Bras.html">Bras</a></li>
+						<li><a href="Shirts.html">Shirts</a></li>
+						<li><a href="Shoes.html">Shoes</a></li>
+						<li><a href="Pants.html">Pants</a></li>
+						<li class="active"><a href="StyleTips.html">Style Tips</a></li>
+						<li><a href="Related.html">Related</a></li>
+            <li>
+              <audio controls autoplay loop id="sound">
+                  <source src="runwaybeat.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
+
+		<!-- Header -->
+		<center><h2><u>Style Tips</u></h2></center>
+		<br>
+
+<!-- Carousel -->
+    <div class="container">
+    <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div class="item active">
+            <img src="FASHLOGO.png">
+            <div class="carousel-caption" id="s">
+              <h3> To look thinner, wear black!</h3>
+            </div>
           </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="Bras.html">Bras</a></li>
-              <li><a href="Shirts.html">Shirts</a></li>
-              <li><a href="Shoes.html">Shoes</a></li>
-              <li><a href="Pants.html">Pants</a></li>
-              <li class="active"><a href="StyleTips.html">Style Tips</a></li>
-              <li><a href="Related.html">Related</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
-    <br>
-    <br>
-    <center><h2><u>Style Tips</u></h2></center>
-    <br>
-  <div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+          <!-- Slide 2 -->
+          <div class="item" id="s">
+            <img src="FASHLOGO.png">
+            <div class="carousel-caption">
+              <h3> To look longer, wear vertical stripes!</h3>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="item" id="s">
+            <img src="FASHLOGO.png">
+            <div class="carousel-caption">
+              <h3> To look wider, wear horizontal stripes! </h3>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="item" id="s">
+            <img src="FASHLOGO.png">
+            <div class="carousel-caption">
+              <h3> If you have a cool undertone, you'll look best in white, black, gray, silver, and shades of blue. </h3>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="item" id="s">
+            <img src="FASHLOGO.png">
+            <div class="carousel-caption">
+              <h3> If you have a warm undertone, you'll look best in shades of yellow, gold, brown, green, and red. </h3>
+            </div>
+          </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <img src="FASHLOGO.png">
-        <div class="carousel-caption" id="s">
-          <h3> #
-          </h3>
-        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span> <!-- Left -->
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span> <!-- Right -->
+        </a>
       </div>
-       
-
-      <div class="item" id="s">
-        <img src="FASHLOGO.png">
-        <div class="carousel-caption">
-          <h3>#</h3>
-        </div>
-      </div>
-    
-      <div class="item" id="s">
-        <img src="FASHLOGO.png">
-        <div class="carousel-caption">
-          <h3> # </h3>
-        </div>
-      </div>
-
-  
     </div>
+    <br>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+
+<br>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT1" aria-expanded="false" aria-controls="BT1">
+      <center>
+      <img src="zapple.png" height="300" id="iL">
+      </center>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  </div>
+  <div class="col-md-8">
+    <div class="well" id="DescL">
+      <h4 id="c4">Apple Body Type:</h4> <br><br>
+
+      <p>You appear to be top heavy with a full chest and upper back and little waist definition.</p>
+    </div>
+  </div>
+  <div class="collapse" id="BT1">
+    <div class="well" id="BT1W">
+      TIPS:
+      <p> 
+      Keep your clothing line straight or slightly fitted, but your fabric soft so you avoid unnecessary bulk. Keep details above the bust line and below the hip line; everything in between should be simple. Your shoulders need attention, so you should balance them from the front and side views. Keep your silhouette fitted under your bust as well as below your arms and along your waist.
+      </p>
+      AVOID:
+      <P>
+      Wearing belts whether big or small; sleeves that end next to your bust; skirts above knee length; clothes that finish at your fullest points; excessive fabric in your mid section; gathered or tiered skirts; clutch bags or shoulder bags; petite shoes, kitten heels, boots with buckles, and uggs.
+      </P>
+    </div>
   </div>
 </div>
 
 <br>
-<center>
- 
-</center>
+
+<div class="row" id="row2">
+  <div class="col-md-8">
+    <div class="well" id="DescR">
+
+      <h4 id="c4">Full Hourglass Body Type:</h4><br><br>
+      <p>Your upper and lower half are approximately in line with each other, along with a defined waist.</p>
+      
+
+    </div>
+  </div>
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT2" aria-expanded="false" aria-controls="BT2">
+      <center>
+        <img src="ZFULL.png" id="iR" height="300">
+      </center>
+    </a>
+  </div>
+  <div class="collapse" id="BT2">
+    <div class="well" id="BT2W">
+      TIPS:
+      <p>
+      Wear shaped and fitted lines in order to follow your body line, but avoid bulk and volume around your feminine curves. Wear a supportive bra that will lift your bust and give you a more defined waist. Bring attention to your shoulders and neckline by wearing designs that bring the eye to the center by wearing wider and lower necklines. Extend the shoulder past the thickest part of your arms.
+      </p>
+      AVOID:
+      <p>
+      Straight shapes that hide your waist; fussy styles and details that create additional volume around your bust, tummy, thighs e.g. dropped sleeve lines, pleats, high-waisted styles, hip pockets; high necklines that cover up your cleavage and décolleté e.g. turtle necks; boxy jackets or double breasted styles; narrowing leg lines or wide/short sleeves that finish near your bust.
+      </p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row" id="row3">
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT3" aria-expanded="false" aria-controls="BT3">
+      <center>
+      <img src="zleancol.png" height="300" id="iL">
+      </center>
+    </a>
+  </div>
+  <div class="col-md-8">
+    <div class="well" id="DescL">
+      <h4 id="c4">Lean Column Body Type:</h4> <br><br>
+      <p> You have narrow shoulders and hips with little definition in your waist</p>
+    </div>
+  </div>
+  <div class="collapse" id="BT3">
+    <div class="well" id="BT3W">
+      TIPS:
+      <p>
+        You need to create the illusion of curves and of a waist. Use layering to shorten your long top half. Create roundness around your extremities e.g. sleeve, leg line, neckline. Wear high or low waisted styles - broad shoulders; unfitted jackets that slope to your waist; highlight your hips and bottom using pockets and pleats.
+      </p>
+      AVOID:
+      <p>
+      Figure-hugging garments; long straight fitted lines in dresses, trousers and sleeves; tops and shift dresses with square necklines; shapeless jackets; loose or droopy styles that hang from your shoulders; dropped waistlines; bulky or heavy textures; double breasted jackets.
+      </p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row" id="row4">
+  <div class="col-md-8">
+    <div class="well" id="DescR">
+      <h4 id="c4">Inverted Triangel Body Type:</h4> <br><br>
+      <p> Your top half is larger than your bottom half. </p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT4" aria-expanded="false" aria-controls="BT4">
+      <center>
+      <img src="zinvertedtri.png" height="300" id="iR">
+      </center>
+    </a>
+  </div>
+  <div class="collapse" id="BT4">
+    <div class="well" id="BT4W">
+      TIPS:
+      <p>
+        On your bottom half you should wear clothes that make your hips look broader.
+        Keep details, fuss, or anything that creates volume to your lower half and keep your top half clean and uncluttered.  
+        Straight clothing lines are a natural extension to your body line.
+        Create the illusion of a waist with waist details such as a wider belt.
+      </p>
+      AVOID:
+      <p>
+        Necklines that make you broader on top e.g. boat or bardot, big straps, halterneck tops, and big shawl collars;
+        styles that extend or accentuate shoulders e.g. details, volume, and fuss on your shoulders such as puff sleeves and shoulder pads; 
+        styles that hide your silhouette; 
+        patterns or stiff fabrics on your top half; scarves around your neck or shoulders; 
+        narrowing hemlines e.g. pencil skirts or skinny jeans; 
+        clutch bags; 
+        petite footwear.
+      </p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT5" aria-expanded="false" aria-controls="BT5">
+      <center>
+      <img src="zneat.png" height="300" id="iL">
+      </center>
+    </a>
+  </div>
+  <div class="col-md-8">
+    <div class="well" id="DescL">
+
+      <h4 id="c4">Neat Hourglass Body Type:</h4> <br><br>
+      <P> You have a similar shape to an hour glass, but generally more smaller and less round. </P>
 
 
-<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+    </div>
+  </div>
+  <div class="collapse" id="BT5">
+    <div class="well" id="BT5W">
+      TIPS:
+      <p>
+        You should wear shaped and fitted lines in order to follow your body lines to define your waist, enhance your bust and highlight your hips and bottom.
+        This is the classic feminine shape and is most flexible when it comes to wearing different styles and shapes in clothing.
+      </p>
 
+      AVOID:
+      <p>
+        Any styles and shapes that hide your body shape because they will add extra volume to your waist.
 
+      </p>
+    </div>
+  </div>
+</div>
 
+<br>
 
-<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
-<style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+<div class="row" id="row2">
+  <div class="col-md-8">
+    <div class="well" id="DescR">
+      <h4 id="c4">Pear Body Type:</h4> <br><br>
+      <P> Your bottom half is larger than your upper half.</P>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT6" aria-expanded="false" aria-controls="BT6">
+      <center>
+      <img src="zpear.png" height="300" id="iR">
+      </center>
+    </a>
+  </div>
+  <div class="collapse" id="BT6">
+    <div class="well" id="BT6W">
+      TIPS:
+      <p>
+        You should balance your top half with your lower half by wearing clothes that make your shoulders look broader. 
+        Your jackets and tops need to end either above or below the widest point of your hips and bottom. 
+        Balance your top half with your fuller bottom half. Layering on your top half creates visual interest and draws the eye upwards. Wear volume, clutter, pattern, color on your top half, so hips and thighs will seem narrower. 
+        Wear fitted styles around your waist and always accentuate your waistline e.g. empire line, wraps, and fitted lines. 
+        Make your shoulders look broader with shoulder pads, puffed sleeves, cap sleeve t-shirts, or boleros.
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-  </body>
-</html>
+      </p>
+      AVOID:
+      <p>
+        Narrowing your leg; pleats or creases in your leg line; pinstripe suits; turn-ups in your trousers; wide or flared leg lines; combat or cropped trousers or culottes; 
+        details, patterns, pockets on your thigh and hip area; belts on your hips; 
+        flared or ruffled sleeve lines; straight skirts or pencil skirts; 
+        bags that sit on your hips; 
+        ankle straps, kitten heels, delicate footwear, round toe shoes, ankle boots with straps around your calf area, and uggs; 
+        mini skirts or any other hemline (including single or double vents in jackets) that finishes on your hips, thighs or any other full point of your leg; 
+        dropped waistlines or dropped panels; 
+        sloping or narrow shoulder lines.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <a role="button" data-toggle="collapse" href="#BT7" aria-expanded="false" aria-controls="BT7">
+      <center>
+      <img src="zrectangle.png" height="300" id="iL">
+      </center>
+    </a>
+  </div>
+  <div class="col-md-8">
+    <div class="well" id="DescL">
+
+      <h4 id="c4">Rectangle Body Type:</h4> <br><br>
+      <P> Your have minimal waist definition, with straight soulders and straight hips.</P>
+
+    </div>
+  </div>
+  <div class="collapse" id="BT7">
+    <div class="well" id="BT7W">
+      TIPS:
+      <p>
+        You should wear shaped and fitted lines in order to follow your body line, but avoid bulk and volume around your feminine curves. 
+        Wear a supportive bra that will lift your bust and give you a more defined waist.
+        Bring attention to your shoulders and neckline by wearing designs that bring the eye to your centre by wearing wider and lower necklines. 
+        Extend the shoulder line past the thickest part of the arms
+
+      </p>
+      AVOID:
+      <P>
+        Straight shapes that hide your waist; 
+        fussy styles and details that create additional volume around your bust, tummy, thighs e.g. dropped sleeve lines, pleats, high-waisted styles, hip pockets; 
+        high necklines that cover up your cleavage and décolleté e.g. turtle necks; 
+        boxy jackets, or double breasted styles; narrowing leg lines; wide/short sleeves which finish near your bust.
+
+      </P>
     
+    </div>
+  </div>
+</div>
+
+
+		<!-- Cursor -->
+		<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+		<style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
+		

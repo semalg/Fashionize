@@ -1,144 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="icon" href="micon.png">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
-    <link href="../css/carousel.css" rel="stylesheet">
-   
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <title>Fashionize Shoes</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="shoes.js"></script>
+	<head>
+		<link rel="icon" href="micon.png">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> 
+		<link href="../css/carousel.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <style>
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-      }
-    .carousel-caption {
-      top: 0;
-      bottom: auto;
-      color: #7395e2
-}
-    </style>
-    
-    <link rel="stylesheet" type="text/css" href="FashCSS.css"> 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-     <nav class="navbar navbar-default navbar-fixed-top">
-     <img src="logo.png" height="50px" width="100px" align="left">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="Fashionize.html">Fashionize</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="Bras.html">Bras</a></li>
-              <li><a href="Shirts.html">Shirts</a></li>
-              <li class="active"><a href="Shoes.html">Shoes</a></li>
-              <li><a href="Pants.html">Pants</a></li>
-              <li><a href="StyleTips.html"> Style Tips </a></li>
-              <li><a href="Related.html">Related</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
-    <br>
-    <br>
-    <center><h2><u>Shoes</u></h2></cessnter>
-    <br>
-  <div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    </ol>
+		<title>Fashionize Shoes</title>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-      <div class="item active">
-        <img src="fashlogo.png">
-        <div class="carousel-caption">
-          <h3> To measure your FOOT LENGTH, measure from the bottom of your heel to the top of your longest toe, to the nearest decimal.</h3>
-        </div>
-      </div>
+		<!-- Javascript Links -->
+		<script type="text/javascript" src="shoes.js"></script>
 
-    
-  
-    </div>
+		<!-- CSS -->
+		<style>
+			/*Carousel Style*/
+			.carousel-inner > .item > img,
+			.carousel-inner > .item > a > img {
+				width: 70%;
+				margin: auto;
+				}
+			.carousel-caption {
+				top: 0;
+				bottom: auto;
+				color: #7395e2
+				}
+			.carousel-control.left {
+				background-image: -webkit-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				background-image:      -o-linear-gradient(left, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 255, .5)), to(rgba(174, 36, 225, .0001)));
+				background-image:         linear-gradient(to right, rgba(174, 36, 255, .5) 0%, rgba(174, 36, 225, .0001) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+				background-repeat: repeat-x;
+				}
+			.carousel-control.right {
+				right: 0;
+				left: auto;
+				background-image: -webkit-linear-gradient(left, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				background-image:      -o-linear-gradient(left, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				background-image: -webkit-gradient(linear, left top, right top, from(rgba(174, 36, 225, .0001)), to(rgba(174, 36, 255, .5)));
+				background-image:         linear-gradient(to right, rgba(174, 36, 225, .0001) 0%, rgba(174, 36, 255, .5) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+				background-repeat: repeat-x;
+				}
+		</style>
+		
+		<link rel="stylesheet" type="text/css" href="FashCSS.css"> 
+	</head>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		<a href="Fashionize.html"><img src="logo.png" height="50px" width="100px" align="left"></a> <!-- Logo -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="Fashionize.html">Fashionize</a>
+				</div>
+				<!-- Tabs -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="Bras.html">Bras</a></li>
+						<li><a href="Shirts.html">Shirts</a></li>
+						<li class="active"><a href="Shoes.html">Shoes</a></li>
+						<li><a href="Pants.html">Pants</a></li>
+            			<li><a href="StyleTips.html">Style Tips</a></li>
+						<li><a href="Related.html">Related</a></li>
+						<li>
+							<audio controls autoplay loop id="sound">
+  								<source src="runwaybeat.mp3" type="audio/mpeg">
+							</audio>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
 
-<br>
-  <div class="flex-container">
-    <div class="alert alert-info" role="alert">
-        <div class="col-md-4">
-          <h4><b>Input your measurement!</h4></b> <br>
-          <form id = "shoeSize">
-            Foot Length: <input type="number" name="Footlength" value="" id="footLength"><br>
-          </form>
-        
-          <input type="submit" value="Enter" onclick="Sh()"></p>
-        </div>
-        <div class="col-md-4">
-        <img src="foot.jpeg" height="250" width="175">
-        </div>
-        <div class="col-md-4">
-       <h4> <p> <b>Your Sizes!</h4></b></p> <br> 
-       <h4 id="c4">US:</h4> <p id=USS></p>
-       <h4 id="c4">UK:</h4> <p id="UKS"></p>
-       <h4 id="c4">Eur:</h4> <p id="EUS"></p>
-       <p id="FS"> </p>
-        </div>
-    </div>
-  </div>
+		<!-- Header -->
+		<center><h2><u>Shoes</u></h2></cessnter>
+		<br>
 
+		<!-- Carousel -->
+		<div class="container">
+		<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				</ol>
 
-<br>
+				<!-- Wrapper for Slides -->
+				<div class="carousel-inner" role="listbox">
+					<!-- Slide 1 -->
+					<div class="item active">
+						<img src="fashlogo.png">
+						<div class="carousel-caption">
+							<h3> To measure your FOOT LENGTH, measure from the bottom of your heel to the top of your longest toe, to the nearest decimal.</h3>
+						</div>
+					</div>
+				</div>
 
-<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+				<!-- Left and Right Controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span> <!-- Left -->
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span> <!-- Right -->
+				</a>
+			</div>
+		</div>
+		<br>
 
-<style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+		<!-- Measurement Input -->
+		<div class="flex-container">
+			<div class="alert alert-info" role="alert">
+				<div class="col-md-4">
+					<h4><b>Input your measurement!</h4></b> <br>
+					<!-- Foot Measurement -->
+					<form id = "shoeSize">
+						Foot Length: <input type="float" name="Footlength" value="" id="footLength"><br>
+					</form>
+		<!-- Submit Button -->
+					<input type="submit" value="Enter" onclick="Sh()"></p>
+				</div>
+		<!-- Measurement Diagram -->
+				<div class="col-md-4">
+					<img src="foot.jpeg" height="250" width="175">
+				</div>
+		<!-- Size Output -->
+				<div class="col-md-4">
+					<h4> <p> <b>Your Sizes!</h4></b></p> <br> 
+					<!-- US Size -->
+					<h4 id="c4">US:</h4> <p id="USS"></p>
+					<!-- UK Size -->
+					<h4 id="c4">UK:</h4> <p id="UKS"></p>
+					<!-- EUR Size -->
+					<h4 id="c4">Eur:</h4> <p id="EUS"></p>
+				</div>
+			</div>
+		</div>
+		<br>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-  </body>
+		<!-- Cursor -->
+		<div align="center" style="z-index:9;visibility:visible;"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+		<style>A:hover{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lipstickpinkglitter.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lipstickpinkglitter.gif"), auto;}</style>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.js"></script>
+	</body>
 </html>
-    
+		

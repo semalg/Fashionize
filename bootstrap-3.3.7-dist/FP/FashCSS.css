@@ -1,5 +1,6 @@
 body{background-color: #FFDBF4;
-	font-family: "Comfortaa", cursive}
+	font-family: "Comfortaa", cursive;
+	 }
 
 #missionstate{width: 350px}
 
@@ -33,3 +34,117 @@ th {
 	width: 350px;
 	border-bottom: 1px solid #ddd;
 	}
+
+#DescL{width: 750px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 2px;
+	margin-right: 125px; 
+	text-align: left;
+	}
+
+#DescR{width: 750px;
+	height: 200px;
+	margin-top: 50px;
+	margin-right: 1px;
+	margin-left: 2px;
+	text-align: right;
+	}
+
+#iL{margin-left: 25px; }
+
+#iR{margin-right: 20px;}
+
+
+
+.Row{display: table;}
+
+#BT1{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT2{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT3{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT4{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+#BT5{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT6{
+	align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+#BT7{ align-self: center;
+	width: 1100px;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 350px;
+}
+
+#BT1W{height: 200px;
+	text-align: center;
+	margin-right: 125px;
+}
+
+#BT2W{height: 200px;
+	text-align: center;
+	margin-right: 125px;}
+
+#BT3W{height: 200px;
+	text-align: center;
+	margin-right: 125px;
+}
+
+#BT4W{height: 200px;
+	text-align: center;
+	margin-right: 125px;}
+
+#BT5W{height: 200px;
+	text-align: center;
+	margin-right: 125px;
+}
+
+#BT6W{height: 300px;
+	text-align: center;
+	margin-right: 125px;}
+
+#BT7W{height: 200px;
+	text-align: center;
+	margin-right: 125px;
+}
+
+
+#Label{font-size: 18px;
+}
+
+#sound{margin-top: 7px;
+		margin-left: 385px;
+		margin-right: -100px;}

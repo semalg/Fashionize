@@ -1,4 +1,4 @@
-function HMPants() {
+function HMPantsCon() {
 
 			var w = document.getElementById("waistsizep").value;
 			var h = document.getElementById("hipsizep").value;

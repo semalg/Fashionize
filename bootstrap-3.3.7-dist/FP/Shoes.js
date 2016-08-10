@@ -4,7 +4,7 @@ function Sh() {
 			var us = 0;
 			var uk = 0;
 			var eur = 0;
-			if (ft == 8.2) {
+			if (ft >= 8.2 && ft <= 8.3) {
 				us = 4;
 				uk = 2;
 				eur = 35;
@@ -16,7 +16,7 @@ function Sh() {
 				us = 5;
 				uk = 3;
 				eur = "35 to 36";
-			} else if (ft == 8.8) {
+			} else if ( ft >= 8.6 && ft <= 8.8) {
 				us = 5.5;
 				uk = 3.5;
 				eur = 36;
@@ -24,11 +24,11 @@ function Sh() {
 				us = 6;
 				uk = 4;
 				eur = "36 to 37";
-			} else if (ft == 9.1) {
+			} else if (ft>=9.0 && ft <= 9.1) {
 				us = 6.5;
 				uk = 4.5;
 				eur = 37;
-			} else if (ft == 9.3) {
+			} else if (ft >= 9.2 && ft <= 9.3) {
 				us = 7;
 				uk = 5;
 				eur = "37 to 38";
@@ -40,11 +40,11 @@ function Sh() {
 				us = 8;
 				uk = 6;
 				eur = "38 to 39";
-			} else if (ft == 9.7) {
+			} else if (ft >= 9.6 && ft <= 9.7) {
 				us = 8.5;
 				uk = 6.5;
 				eur = 39;
-			} else if (ft == 9.9) {
+			} else if (ft >= 9.8 && ft <= 9.9) {
 				us = 9;
 				uk = 7;
 				eur = "39 to 40";
@@ -52,7 +52,7 @@ function Sh() {
 				us = 9.5;
 				uk = 7.5;
 				eur = 40;
-			} else if (ft == 10.2) {
+			} else if (ft>= 10.1 && ft <= 10.2) {
 				us = 10;
 				uk = 8;
 				eur = "40 to 41";
@@ -60,11 +60,11 @@ function Sh() {
 				us = 10.5;
 				uk = 8.5;
 				eur = 41;
-			} else if (ft == 10.5) {
+			} else if (ft >= 10.4 && ft <= 10.5) {
 				us = 11;
 				uk = 9;
 				eur = "41 to 42";
-			} else if (ft == 10.8) {
+			} else if (ft >= 10.6 && ft <= 10.8) {
 				us = 11.5;
 				uk = 9.5;
 				eur = 42;
