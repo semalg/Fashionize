@@ -21,64 +21,87 @@
 		<link rel="stylesheet" type="text/css" href="FashCSS.css">
 
 		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-		    apiKey: "AIzaSyAOuzH_T2gHEmIWlcrqElzgd37cKPIETEo",
-		    authDomain: "fashionize-a06c1.firebaseapp.com",
-		    databaseURL: "https://fashionize-a06c1.firebaseio.com",
-		    storageBucket: "fashionize-a06c1.appspot.com",
-		    };
-		  firebase.initializeApp(config);
 
-		  // A post entry.
-		  var postData = {
-		    author: "nikki",
-		    title: "title",
-		    body: "comment"
-		    };
-
-		  // Get a key for a new Post.
-		  var newPostKey = firebase.database().ref().child('posts').push().key;
-
-		  // Write the new post's data simultaneously in the posts list and the user's post list.
-		  var updates = {};
-		  updates['/posts/' + newPostKey] = postData;
-
-		  firebase.database().ref().update(updates);
-
-		  firebase.database().ref().child('posts').on('value', function(snapshot) {
-		    console.log(snapshot.val());
-		  });
-
-		  // firebase.database().ref().child('posts').on('value', function(snapshot) {
-		  //   document.write(snapshot.val());
-		  // });
-		</script>
+		<!-- CSS -->
+		<style>
+		 p {
+		 	margin: 20px;
+		 }
+		</style>
 	</head>
 
 	<body>
 		<center>
 		<div id="divName">
 			<form method='post'>
-				Name: <input type='text' name='name' id='name'><br>
+				Name: <br>
+				<input type='text' name='name' id="name"><br>
 
-				Email: <input type='text' name='email' id='email'><br>
+				Email: <br>
+				<input type='text' name='email' id="email"><br>
 
 				Comment:<br>
-				<textarea name='comment' id='comment'></textarea><br>
+				<textarea name='comment' id="comment"></textarea><br>
 
-<!-- 				<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /> -->
-
-				<input type='submit' value='Submit' onclick="printDiv('print-content')">
+				<input type='submit' value='Submit' onclick="myfunction()">
 			</form>
 		</div>
 		</center>
 
-		<script type="text/javascript">
-			function printDiv() {
-				var printContents = document.getElementById("divName").innerHTML;
+		<p id="1"></p>
+		<p id="2"></p>
+		<p id="3"></p>
+
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyAOuzH_T2gHEmIWlcrqElzgd37cKPIETEo",
+				authDomain: "fashionize-a06c1.firebaseapp.com",
+				databaseURL: "https://fashionize-a06c1.firebaseio.com",
+				storageBucket: "fashionize-a06c1.appspot.com",
+				};
+			firebase.initializeApp(config);
+
+			function myfunction() {
+			// A post entry.
+				var postData = {
+					author: document.getElementById("name").value,
+					title: document.getElementById("email").value,
+					body: document.getElementById("comment").value,
+					};
+			// Get a key for a new Post.
+				var newPostKey = firebase.database().ref().child('posts').push().key;
+			// Write the new post's data simultaneously in the posts list and the user's post list.
+				var updates = {};
+				updates['/posts/' + newPostKey] = postData;
+
+				firebase.database().ref().update(updates);
+				// console.log(postData);
+			}
+
+			// Attach an asynchronous callback to read the data at our posts reference
+			firebase.database().ref().on("value", function(snapshot) {
+				var database = snapshot.val();
+				for(var i in database) {
+					var posts = database[i];
+					for(var j in posts) {
+						var post = posts[j];
+						var author = post["author"];
+						var title = post["title"];
+						var body = post["body"];
+						var a = "Name: ";
+						var b = " Email: ";
+						var c = " Comment: ";
+						var x = a.bold();
+						var y = b.bold();
+						var z = c.bold();
+						document.getElementById("1").innerHTML = x + author + y + title
+						+ z + body;
+					}
 				}
+		    }, function (errorObject) {
+				console.log("The read failed: " + errorObject.code);
+		  	});
 		</script>
 
 		<!-- Cursor -->
