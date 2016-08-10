@@ -73,7 +73,7 @@ function HMPants() {
 
 // Fit Description
 			if (Wval == -1) {
-				WPfit = "Invalid Waste Size"
+				WPfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
 				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
@@ -197,7 +197,7 @@ function HMPants() {
 			}
 // FIT DESCRIPTION
 			if (Wval == -1) {
-				WPfit = "Invalid Waste Size"
+				WPfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
 				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
@@ -333,7 +333,7 @@ function HMPants() {
 			}
 // FIT DESCRIPTION
 			if (Wval == -1) {
-				WPfit = "Invalid Waste Size"
+				WPfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
 				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
@@ -474,7 +474,7 @@ function HMPants() {
 			}
 // FIT DESCRIPTION 
 			if (Wval == -1) {
-				WPfit = "Invalid Waste Size"
+				WPfit = "Invalid Waist Size"
 			} else if (Wval == roundedAvg) {
 				WPfit = "10/10"
 			} else if ((Wval == roundedAvg + 1) || (Wval == roundedAvg - 1)) {
@@ -517,6 +517,7 @@ function HMPants() {
 				document.getElementById("F21WPfit").innerHTML = WPfit;
 			} if (F21HPfit !== undefined) {
 				document.getElementById("F21HPfit").innerHTML = HPfit;
+			
 			}
 		}
 		
