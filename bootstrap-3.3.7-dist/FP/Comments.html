@@ -48,9 +48,8 @@
 		</div>
 		</center>
 
-		<p id="1"></p>
-		<p id="2"></p>
-		<p id="3"></p>
+<!-- 		<p id="1"></p>
+		<p id="2"></p> -->
 
 		<script>
 			// Initialize Firebase
@@ -76,7 +75,7 @@
 				updates['/posts/' + newPostKey] = postData;
 
 				firebase.database().ref().update(updates);
-				// console.log(postData);
+				console.log(postData);
 			}
 
 			// Attach an asynchronous callback to read the data at our posts reference
@@ -89,18 +88,20 @@
 						var author = post["author"];
 						var title = post["title"];
 						var body = post["body"];
-						var a = "Name: ";
-						var b = " Email: ";
-						var c = " Comment: ";
-						var x = a.bold();
-						var y = b.bold();
-						var z = c.bold();
-						document.getElementById("1").innerHTML = x + author + y + title
-						+ z + body;
+			// 			var a = "Name: ";
+			// 			var b = " Email: ";
+			// 			var c = " Comment: ";
+			// 			var x = a.bold();
+			// 			var y = b.bold();
+			// 			var z = c.bold();
+			// 			var n = 0
+			// 			document.getElementById(String(1 + n)).innerHTML = x + author + y + title
+			// 			+ z + body;
+			// 			n++
 					}
 				}
-		    }, function (errorObject) {
-				console.log("The read failed: " + errorObject.code);
+		  //   }, function (errorObject) {
+				// console.log("The read failed: " + errorObject.code);
 		  	});
 		</script>
 
