@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Comments</title>
+		<title>Fashionize Feedback</title>
 
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,16 +31,57 @@
 	</head>
 
 	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		<a href="Fashionize.html"><img src="logo.png" height="50px" width="100px" align="left"></a> <!-- Logo -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="Fashionize.html">Fashionize</a>
+				</div>
+				<!-- Tabs -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="Bras.html">Bras</a></li>
+						<li><a href="Shirts.html">Shirts</a></li>
+						<li><a href="Shoes.html">Shoes</a></li>
+						<li><a href="Pants.html">Pants</a></li>
+            			<li><a href="StyleTips.html">Style Tips</a></li>
+						<li><a href="Related.html">Related</a></li>
+						<li class="active"><a href="comments.html">Feedback</a></li>
+						<audio controls autoplay loop id="sound">
+								<source src="runwaybeat.mp3" type="audio/mpeg">
+						</audio>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
+		<Br>
+
+		<center><h2><u>Leave us your comments, concerns and any other questions!</u></h2></center>
+
+		<br>
+
 		<center>
 		<div id="divName">
 			<form method='post'>
-				Name: <br>
+				<b>Name:</b> <br>
 				<input type='text' name='name' id="name"><br>
 
-				Email: <br>
+				<br>
+
+				<b>Email:</b> <br>
 				<input type='text' name='email' id="email"><br>
 
-				Comment:<br>
+				<br>
+
+				<b>Comment:</b><br>
 				<textarea name='comment' id="comment"></textarea><br>
 
 				<input type='submit' value='Submit' onclick="myfunction()">
